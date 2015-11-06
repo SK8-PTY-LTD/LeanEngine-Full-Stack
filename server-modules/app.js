@@ -19,6 +19,7 @@ const app = express();
 const apiRouter = require('./api-router');
 const tool = require('./tool');
 const config = require('./config');
+const CUSTOM_MODULE = require('./app_node');
 
 // 设置 view 引擎
 // app.set('views', path.join(__dirname, 'views'));
